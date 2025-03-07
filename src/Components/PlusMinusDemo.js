@@ -9,7 +9,7 @@ import { connect } from 'react-redux'
   render() {
     return (
       <div className='div1'>
-         <h1>Class Component</h1>
+         <h1 className='heading'>Class Component</h1>
          <button className='btn' onClick={()=>this.props.decrement(2)}>-</button>&nbsp;
          {this.props.count}&nbsp;
          <button className='btn' onClick={()=>this.props.increment(4)}>+</button>&nbsp;
